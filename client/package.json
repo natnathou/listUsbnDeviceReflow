@@ -1,0 +1,32 @@
+{
+	"name": "@mcesystems/reflow-example-multilang",
+	"private": true,
+	"version": "4.3.10",
+	"description": "A simple text viewer app that shows translations support in Reflow",
+	"main": "dist/index",
+	"scripts": {
+		"start": "webpack-dev-server"
+	},
+	"author": "mceSystems",
+	"dependencies": {
+		"@mcesystems/reflow": "^4.3.10",
+		"@mcesystems/reflow-react-display-layer": "^4.3.10",
+		"@types/lodash": "^4.14.165",
+		"axios": "^0.21.0",
+		"lodash": "^4.17.20",
+		"react-redux": "^7.2.2",
+		"redux": "^4.0.5",
+		"redux-thunk": "^2.3.0",
+		"socket.io-client": "^3.0.3"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.0",
+		"@types/react-redux": "^7.1.11",
+		"awesome-typescript-loader": "^5.2.1",
+		"source-map-loader": "^0.2.4",
+		"typescript": "^3.5.3",
+		"webpack": "^4.36.1",
+		"webpack-cli": "^3.3.6",
+		"webpack-dev-server": "^3.7.2"
+	}
+}

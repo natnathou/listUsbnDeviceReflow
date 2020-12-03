@@ -1,0 +1,41 @@
+.App {
+  margin-top: 20px;
+}
+
+.Table {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 600px;
+  justify-content: center;
+  align-content: center;
+}
+
+.Table > .row {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: repeat(4, 150px);
+}
+
+.Table > .row:last-of-type {
+  border-bottom: 1px solid BLACK;
+}
+
+.Table .row > .cel:first-of-type {
+  border-left: 1px solid black;
+}
+
+.Table > .row > .cel {
+  overflow: hidden;
+  border-top: 1px solid BLACK;
+  border-right: 1px solid BLACK;
+  line-height: 30px;
+  text-align: center;
+}
+
+.cel.header {
+  font-weight: bold;
+  font-size: 1.2em;
+}
